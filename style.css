@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+html{
+    /* box-sizing: border-box; */
+}
+.row{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+    margin:0;
+}
+li{
+  
+    /* padding: 25px; */
+    
+    color: azure;
+    list-style: none;
+    transition: all 2s;
+    cursor: pointer;
+    font-size: 25px;
+    
+
+}
+
+li:hover{
+    color: yellow;
+    border-bottom: solid 2px yellow;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    /* margin-: 0; */
+    
+}
+nav{
+    text-align: center;
+    font-family: 'lalezar' ;
+    font-size: 15px;
+    /* margin-left: 100px; */
+    padding:  123px 0;
+    
+    /* text-align: center; */
+}
+.holder{
+    margin-top: -350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@font-face{
+    font-family:'lalezar' ;
+    src: url('font/lalezar') format('ttf');
+}
+
+a{
+    font-family:'lalezar' ;
+    src: url('font/lalezar') format('ttf');
+}
+
+.white{
+    color: azure;
+    font-size: 50px;
+    font-family: 'lalezar' ;
+    text-align: center;
+    
+    
+}
+.white span{
+    color: rgb(234, 234, 14);
+
+}
+@font-face{
+    font-family:'lalezar' ;
+    src: url('font/lalezar') format('ttf');
+}
+
+.btn{
+    /* border: 9px; */
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-style : solid  rgb(188, 31, 94) ;
+    border-color: rgb(34, 37, 37) ;
+    font-size: 15px;
+    padding: 20px 110px;
+    display: flex;
+    margin: auto;
+   text-align: center;
+    width: 500px;
+
+}
+.link{
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    /* margin-left: 100px; */
+}
+
+.two{
+    margin: 170px 0;
+}
+.kk{
+    width: 293px;
+    height: 284px;
+}
+
+.con{
+    text-align:center ;
+    width: 291px;
+    border: 1px solid rgb(240, 226, 226);
+    box-shadow: 3px 3px 2px rgb(170, 164, 164);
+
+
+}
+.name{
+    text-align: center;
+}
+
+.alll{
+    
+    /* margin-top: 100px; */
+    /* margin-left: 300px; */
+    /* margin: 10px;
+    margin-left: 150px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.mtn_mem{
+    text-align: center;
+    font-family: 'lalezar' ;
+
+}
+
+@font-face{
+    font-family:'Byekan' ;
+    src: url('font/Byekan') format('ttf');
+}
+
+
+.all{
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 5px 5px 5px rgb(171, 165, 165); */
+}
+
+.row3{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-blend-mode: multiply;
+    background-color: rgb(44, 41, 41);
+    
+
+}
+
+.darbare{
+    color:#fff ;
+    filter: brightness(100%) !important ;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'lalezar' ;
+
+    
+}
+
+.mohtava{
+    text-align: center;
+    padding: 30px;
+    /* padding-right: 76px; */
+    font-family:'lalezar' ;
+    color: burlywood;
+
+
+}
+
+.mtn3{
+    border-radius: 2000px;
+    border-color: rgb(176, 162, 162, 0.203);
+    border-style: solid;
+    background-blend-mode: multiply;
+    background-color: rgba(176, 162, 162, 0.203);
+    width: 550px;
+    height: 550px;
+    margin: auto;
+   
+}
+
+.dota{
+    margin-top: 20px;
+    padding: 60px;
+}
+
+.social {
+    text-align: center;
+    font-size: 30px;
+    border-color: gray;
+    background-color: rgb(75, 73, 73);
+    height: 90px;
+    font-family:'lalezar' ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.social i{
+    
+    padding: 20px;
+}
+.row4{
+    margin-top: 50px;
+    
+    
+}
+
+.hugug{
+    text-align: center;
+    font-family:'lalezar' ;
+}
+p,
+h3{
+    font-family:'lalezar' ;
+}
+i:hover{
+    color: yellow;
+}
